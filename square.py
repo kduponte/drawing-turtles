@@ -1,6 +1,6 @@
 import turtle
 
-def draw_square():
+def draw_shapes():
     window = turtle.Screen()
     window.bgcolor("black")
 
@@ -9,15 +9,10 @@ def draw_square():
     swimmy.color("green")
     swimmy.speed(1)
 
-    swimmy.forward(100)
-    swimmy.right(90)
-    swimmy.forward(100)
-    swimmy.right(90)
-    swimmy.forward(100)
-    swimmy.right(90)
-    swimmy.forward(100)
-    swimmy.right(90)
+    for x in range(0,4):
+        swimmy.forward(100)
+        swimmy.right(90)
 
     window.exitonclick()
 
-draw_square()
+draw_shapes()
