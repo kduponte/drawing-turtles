@@ -18,7 +18,7 @@ def draw_shapes():
     bubbles.color("blue")
     bubbles.speed(1)
 
-    bubbles.circle(60)
+    bubbles.circle(50)
     bubbles.right(45)
 
     squirts = turtle.Turtle()
